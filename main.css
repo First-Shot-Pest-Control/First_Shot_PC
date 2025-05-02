@@ -40,7 +40,7 @@ header{
 
 .headerContent {
     padding-bottom: 5%;
-    width: 40%;
+    width: 80%;
     justify-self: center;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
@@ -66,8 +66,11 @@ header{
 
 
 main{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     background-color: #F4F4F4;
+    align-items: center;
 
 }
 
@@ -83,12 +86,13 @@ main p, main h3{
     /* padding-left: 10px; */
     width: 80%;
     justify-self: center;
+    margin-bottom: 15px;
 }
 
 h2{
     text-align: center;
     background-color: #7EB061;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 ul{
@@ -118,7 +122,8 @@ li{
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.8s ease;
-    background-color: rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.375);
+    color: #ffffff;
 }
 .serviceInfo.show {
     max-height: 500px;
@@ -165,9 +170,8 @@ li{
 }
 
 iframe{
-    width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    width: 76vw;
+
 }
 
 
