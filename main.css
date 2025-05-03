@@ -2,7 +2,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
@@ -66,11 +66,12 @@ header{
 }
 
 
+
+/* This is where the main content css is */
 .mainHeader{
     width: 100%;
+    padding: 10px;
 }
-/* This is where the main content css is */
-
 main{
     display: flex;
     flex-direction: column;
