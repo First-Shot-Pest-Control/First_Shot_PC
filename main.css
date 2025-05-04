@@ -158,6 +158,7 @@ ul li:last-child{
     background-color: rgba(0, 0, 0, 0.375);
     color: #ffffff;
     text-align: center;
+    padding-left: 10px;
 }
 .serviceInfo.show {
     max-height: 500px;
@@ -185,6 +186,7 @@ ul li:last-child{
 
 .contactContent{
     width: 100%;
+    padding-left: 10px;
 }
 
 .info{
@@ -192,7 +194,8 @@ ul li:last-child{
     flex-direction: column;
     align-items: center;
     width: 80%;
-    justify-self: center
+    justify-self: center;
+    /* padding-left : 20px; */
 }
 
 .contactHeader{
