@@ -223,8 +223,8 @@ footer{
 
 @media screen and (min-width: 750px) {
     .navbar{
-        justify-content: left;
-        padding-left: 10%;
+        align-items: center;
+        justify-content: center;
     }
 
     .headerInfo {
