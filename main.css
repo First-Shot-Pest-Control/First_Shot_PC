@@ -21,7 +21,7 @@ header{
     padding-left: 10px;
     position: relative;
     color: #ffffff;
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -42,9 +42,9 @@ header{
 
 
 .hive {
-    width: 100%;
+    width: auto;
     height: auto;
-    max-height: 300px;
+    max-width: 100%;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     z-index: 0;
