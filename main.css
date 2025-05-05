@@ -26,10 +26,7 @@ header{
 
 
 .logo{
-    width: 80px;
-    height: auto;
-    position:absolute;
-    left: 10px;
+    display: none;
 }
 
 /* h1{
@@ -228,6 +225,13 @@ footer{
     .navbar{
         align-items: center;
         justify-content: center;
+    }
+    .logo{
+        display: block;
+        width: 80px;
+        height: auto;
+        position:absolute;
+        left: 10px;
     }
 
     .headerInfo {
