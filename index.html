@@ -3,84 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="First Shot Pest Control offers fast, safe, and affordable pest removal in Southeastern, Idaho covering cities like Island Park, Shelly, Rexburg, Saint Anthony, Sugar Salem, Rigby, Ashton, and Dubois. Call now for a free quote!">
+    <meta name="description" content="First Shot Pest Control offers fast, safe, and affordable pest removal in Southeastern Idaho. Call now for a free quote!">
     <title>First Shot Pest Control</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="main.css">
     <script src="main.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <img class="logo" src="images/logo.png" alt="First Shot Pest Control Logo of an ant that is on a target.">
-            <h1>First Shot Pest Control</h1>
-        </nav>
-        <div class="headerInfo">
-            <img class="hive" src="images/hive.jpg" alt="Wasp Hive that was removed in Rexburg">
-            <img class="popBug" src="images/bug.jpg" alt="Earwigs That were removed in Rigby">
-            <div class="headerContent">
-                <h2 class="headerText">Unwanted pest in your Home?</h2>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <img class="logo" src="images/logo.png" alt="First Shot Pest Control Logo">
+                <h1>First Shot <span class="highlight">Pest Control</span></h1>
             </div>
+            <a href="tel:2083904378" class="nav-phone">208-390-4378</a>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <h2 class="hero-title">Unwanted pests in your Home?</h2>
+            <p class="hero-subtitle">Fast, safe, and affordable pest removal in Southeastern Idaho.</p>
+            <a href="#contact" class="btn-primary">Get a Free Quote</a>
+        </div>
+        <div class="hero-images">
+            <img class="hero-img img-main" src="images/hive.jpg" alt="Wasp Hive Removal">
+            <img class="hero-img img-sub" src="images/bug.jpg" alt="Pest Removal">
         </div>
     </header>
 
     <main>
-        <div class="mainHeader">
-            <h3>* First Shot Pest Control has you covered.</h3>
-            <p class="mainText">We’re a locally owned pest control company based in Saint Anthony, Idaho, proudly serving the areas in Southeastern Idaho, from Island Park down to Dubois and Shelly. Whether you're dealing with rodents, wasps, ants, or other pests, First Shot Pest Control is here to help—quickly and effectively.</p>
-        </div>
-        <div class="services">
-            <h2>Services Offered By First Shot Pest Control</h2>
-            <ul>
-                <li> <button id="generalButton" class="serviceButton">General Spray <img id="generalArrow" class="arrow" src="images/up-arrow.svg" alt=""></button> 
-                    <div class="serviceInfo">
-                        <p>Our general spray treatment targets common household insects and spiders, providing a protective barrier inside your home.</p>
+        <section class="intro">
+            <h3>We have you covered.</h3>
+            <p class="main-text">We’re a locally owned company based in <strong>Saint Anthony, Idaho</strong>, proudly serving Island Park, Dubois, Shelly, and everywhere in between. Whether you're dealing with rodents, wasps, or ants, First Shot Pest Control is here to help—quickly and effectively.</p>
+        </section>
+
+        <section class="services-section">
+            <h2 class="section-title">Our Core Services</h2>
+            <div class="accordion-container">
+                
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>General Spray</span>
+                        <img class="arrow" src="images/up-arrow.svg" alt="toggle">
+                    </button>
+                    <div class="accordion-content">
+                        <div class="content-inner">
+                            <p>Our general spray treatment targets common household insects and spiders, providing a protective barrier inside your home to keep pests out for good.</p>
+                        </div>
                     </div>
-                </li>
+                </div>
 
-                <li> <button id="rodentButton" class="serviceButton">Rodent Control <img id="rodentArrow" class="arrow" src="images/up-arrow.svg" alt=""></button>
-                    <div class="serviceInfo">
-                        <p>Our rodent control service effectively targets house mice, rats, voles, and gophers. We use proven methods to eliminate infestations and prevent future issues, protecting your home and property from damage and health risks.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Rodent Control</span>
+                        <img class="arrow" src="images/up-arrow.svg" alt="toggle">
+                    </button>
+                    <div class="accordion-content">
+                        <div class="content-inner">
+                            <p>Our rodent control service effectively targets house mice, rats, voles, and gophers. We use proven methods to eliminate infestations and prevent future issues.</p>
+                        </div>
                     </div>
-                </li>
+                </div>
 
-                <li> <button id="treeButton" class="serviceButton">Tree Treatment <img id="treeArrow" class="arrow" src="images/up-arrow.svg" alt=""></button>
-                    <div class="serviceInfo">
-                        <p>We treat trees for a variety of insect pests that can damage foliage, bark, and overall tree health. Our solutions help protect your trees and keep your landscape thriving.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Tree Treatment</span>
+                        <img class="arrow" src="images/up-arrow.svg" alt="toggle">
+                    </button>
+                    <div class="accordion-content">
+                        <div class="content-inner">
+                            <p>We treat trees for a variety of insect pests that can damage foliage, bark, and overall tree health. Keep your landscape thriving with our specialized care.</p>
+                        </div>
                     </div>
-                </li>
+                </div>
 
-                <li><button class="serviceButton">Ants</button></li>
-                <li><button class="serviceButton">Beetles</button></li>
-                <li><button class="serviceButton">Cockroaches</button></li>
-                <li><button class="serviceButton">Mosquitos</button></li>
-                <li><button class="serviceButton">Earwigs</button></li>
-                <li><button class="serviceButton">Hornets</button></li>
-                <li><button class="serviceButton">Wasps</button></li>
-                <li><button class="serviceButton">Rodents</button></li>
-                <li><button class="serviceButton">Spiders</button></li>
-            </ul>
-        </div>
+            </div>
+        </section>
 
+        <section class="pests-section">
+            <h2 class="section-title">We Also Treat</h2>
+            <div class="pests-grid">
+                <span class="pest-badge">Ants</span>
+                <span class="pest-badge">Beetles</span>
+                <span class="pest-badge">Cockroaches</span>
+                <span class="pest-badge">Mosquitos</span>
+                <span class="pest-badge">Earwigs</span>
+                <span class="pest-badge">Hornets</span>
+                <span class="pest-badge">Wasps</span>
+                <span class="pest-badge">Spiders</span>
+            </div>
+        </section>
 
-        <div class="info">
-            <div class="contactInfo">
-                <h2 class="contactHeader">Contact Info</h2>
-                <div class="contactContent">
-                    <p><b>*See if you qualify for a free consultation today!</b><p>
-                    <p>We’re based in <b> Saint Anthony, Idaho,</b> and proudly serve the surrounding areas—from <b> Island Park down to Dubois and Shelly</b>.</p>
-                    <p>Phone: 208-390-4378</p>
-                    <p>Email: firstshotpc@gmail.com</p>
+        <section id="contact" class="contact-section">
+            <div class="contact-card">
+                <h2 class="contact-header">Contact Us</h2>
+                <div class="contact-details">
+                    <p class="promo-text">See if you qualify for a <strong>free consultation</strong> today!</p>
+                    <hr>
+                    <p><strong>Phone:</strong> <a href="tel:2083904378">208-390-4378</a></p>
+                    <p><strong>Email:</strong> firstshotpc@gmail.com</p>
+                    <p><strong>Location:</strong> Saint Anthony, ID (Serving Southeastern Idaho)</p>
                 </div>
             </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22973.653318012002!2d-111.70502517548852!3d43.96543364966368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5353f9292ca6b659%3A0x6f55644b3863c02a!2sSt%20Anthony%2C%20ID%2083445!5e0!3m2!1sen!2sus!4v1746121509805!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" title="Google map showing saint Anthony where First Shot Pest Controle is Located"></iframe>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22973.653318012002!2d-111.70502517548852!3d43.96543364966368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5353f9292ca6b659%3A0x6f55644b3863c02a!2sSt%20Anthony%2C%20ID%2083445!5e0!3m2!1sen!2sus!4v1746121509805!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Service Area Map"></iframe>
             </div>
-        </div>  
+        </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2025 First Shot Pest Control. All rights reserved.</p>
+        <p>© 2025 First Shot Pest Control. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
